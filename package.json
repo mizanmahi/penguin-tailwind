@@ -1,0 +1,12 @@
+{
+  "name": "peng-fash-tailwind",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "dependencies": {
+    "tailwindcss": "^2.2.7"
+  }
+}

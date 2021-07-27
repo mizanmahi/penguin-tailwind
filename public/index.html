@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="./styles.css" />
+      <title>Penguin Tailwind</title>
+   </head>
+   <body>
+      <!-- header start -->
+      <header class="bg-yellow-50 pt-5">
+         <div class="px-32">
+            <!-- nav start -->
+            <nav class="flex justify-between items-center">
+               <div class="logo">
+                  <img
+                     src="../icons/Group 33072.png"
+                     alt="Logo Image"
+                     class="w-80"
+                  />
+               </div>
+               <ul class="flex space-x-5 text-gray-600 font-medium">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Product</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Contact Us</a></li>
+               </ul>
+            </nav>
+
+            <!-- intro start -->
+            <div class="intro flex items-center py-20">
+               <div class="space-y-5">
+                  <h1 class="text-7xl text-yellow-500 font-extrabold uppercase">
+                     Be The Penguin <br />
+                     <span class="text-gray-800">of winter</span>
+                  </h1>
+                  <p class="text-gray-500 text-2xl w-3/4">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                     Iusto sapiente assumenda similique sequi reprehenderit
+                     dolores.
+                  </p>
+                  <button
+                     class="
+                        px-8
+                        bg-gray-800
+                        font-bold
+                        py-3
+                        text-white
+                        rounded
+                        shadow-xl
+                        ring-4 ring-yellow-400
+                        hover:bg-yellow-400
+                     "
+                  >
+                     <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="inline h-6 w-6"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                     >
+                        <path
+                           stroke-linecap="round"
+                           stroke-linejoin="round"
+                           stroke-width="2"
+                           d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                        />
+                     </svg>
+                     Buy Now
+                  </button>
+               </div>
+               <div>
+                  <img src="../images/model.png" alt="model image" />
+               </div>
+            </div>
+         </div>
+      </header>
+
+      <!-- main start -->
+      <main>
+         <!-- women jackets section -->
+         <section class="px-32 my-10">
+            <h2 class="text-gray-800 text-5xl font-bold mb-10">
+               Women Jackets
+            </h2>
+            <div class="jackets grid grid-cols-3 gap-10">
+               <!-- single jacket -->
+               <div
+                  class="
+                     p-4
+                     shadow
+                     rounded
+                     space-y-5
+                     hover:shadow-xl
+                     cursor-pointer
+                  "
+               >
+                  <div class="bg-gray-200 rounded py-3">
+                     <img
+                        class="h-64 mx-auto"
+                        src="../images/jacket-1.png"
+                        alt="jacket image"
+                     />
+                  </div>
+                  <h3 class="text-3xl font-bold text-gray-800">Yellow Coat</h3>
+                  <p class="text-gray-400">
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Est, aliquid?
+                  </p>
+                  <div class="flex justify-between items-center">
+                     <h1 class="text-4xl text-gray-800 font-bold">$199</h1>
+                     <button
+                        class="
+                           px-4
+                           py-2
+                           bg-yellow-500
+                           rounded
+                           text-white
+                           font-bold
+                        "
+                     >
+                        <svg
+                           xmlns="http://www.w3.org/2000/svg"
+                           class="inline h-6 w-6"
+                           fill="none"
+                           viewBox="0 0 24 24"
+                           stroke="currentColor"
+                        >
+                           <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                           />
+                        </svg>
+                        Order Now
+                     </button>
+                  </div>
+               </div>
+               <div
+                  class="
+                     p-4
+                     shadow
+                     rounded
+                     space-y-5
+                     hover:shadow-xl
+                     cursor-pointer
+                     gap-10
+                  "
+               >
+                  <div class="bg-gray-200 rounded py-3">
+                     <img
+                        class="h-64 mx-auto"
+                        src="../images/jacket-2.png"
+                        alt="jacket image"
+                     />
+                  </div>
+                  <h3 class="text-3xl font-bold text-gray-800">
+                     Ladies Jacket
+                  </h3>
+                  <p class="text-gray-400">
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Est, aliquid?
+                  </p>
+                  <div class="flex justify-between items-center">
+                     <h1 class="text-4xl text-gray-800 font-bold">$199</h1>
+                     <button
+                        class="
+                           px-4
+                           py-2
+                           bg-yellow-500
+                           rounded
+                           text-white
+                           font-bold
+                        "
+                     >
+                        <svg
+                           xmlns="http://www.w3.org/2000/svg"
+                           class="inline h-6 w-6"
+                           fill="none"
+                           viewBox="0 0 24 24"
+                           stroke="currentColor"
+                        >
+                           <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                           />
+                        </svg>
+                        Order Now
+                     </button>
+                  </div>
+               </div>
+               <div
+                  class="
+                     p-4
+                     shadow
+                     rounded
+                     space-y-5
+                     hover:shadow-xl
+                     cursor-pointer
+                     gap-10
+                  "
+               >
+                  <div class="bg-gray-200 rounded py-3">
+                     <img
+                        class="h-64 mx-auto"
+                        src="../images/jacket-3.png"
+                        alt="jacket image"
+                     />
+                  </div>
+                  <h3 class="text-3xl font-bold text-gray-800">
+                     Leather Jacket
+                  </h3>
+                  <p class="text-gray-400">
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Est, aliquid?
+                  </p>
+                  <div class="flex justify-between items-center">
+                     <h1 class="text-4xl text-gray-800 font-bold">$199</h1>
+                     <button
+                        class="
+                           px-4
+                           py-2
+                           bg-yellow-500
+                           rounded
+                           text-white
+                           font-bold
+                        "
+                     >
+                        <svg
+                           xmlns="http://www.w3.org/2000/svg"
+                           class="inline h-6 w-6"
+                           fill="none"
+                           viewBox="0 0 24 24"
+                           stroke="currentColor"
+                        >
+                           <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                           />
+                        </svg>
+                        Order Now
+                     </button>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- men jacket secion -->
+         <section class="px-32 my-10">
+            <h2 class="text-gray-800 text-5xl font-bold mb-10">Men Jackets</h2>
+            <div class="jackets grid grid-cols-3 gap-10">
+               <!-- single jacket -->
+               <div
+                  class="
+                     p-4
+                     shadow
+                     rounded
+                     space-y-5
+                     hover:shadow-xl
+                     cursor-pointer
+                  "
+               >
+                  <div class="bg-gray-200 rounded py-3">
+                     <img
+                        class="h-64 mx-auto"
+                        src="../images/jacket-4.png"
+                        alt="jacket image"
+                     />
+                  </div>
+                  <h3 class="text-3xl font-bold text-gray-800">
+                     Snowboard Jacket
+                  </h3>
+                  <p class="text-gray-400">
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Est, aliquid?
+                  </p>
+                  <div class="flex justify-between items-center">
+                     <h1 class="text-4xl text-gray-800 font-bold">$199</h1>
+                     <button
+                        class="
+                           px-4
+                           py-2
+                           bg-yellow-500
+                           rounded
+                           text-white
+                           font-bold
+                        "
+                     >
+                        <svg
+                           xmlns="http://www.w3.org/2000/svg"
+                           class="inline h-6 w-6"
+                           fill="none"
+                           viewBox="0 0 24 24"
+                           stroke="currentColor"
+                        >
+                           <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                           />
+                        </svg>
+                        Order Now
+                     </button>
+                  </div>
+               </div>
+               <div
+                  class="
+                     p-4
+                     shadow
+                     rounded
+                     space-y-5
+                     hover:shadow-xl
+                     cursor-pointer
+                     gap-10
+                  "
+               >
+                  <div class="bg-gray-200 rounded py-3">
+                     <img
+                        class="h-64 mx-auto"
+                        src="../images/jacket-5.png"
+                        alt="jacket image"
+                     />
+                  </div>
+                  <h3 class="text-3xl font-bold text-gray-800">
+                     Leather Jackets
+                  </h3>
+                  <p class="text-gray-400">
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Est, aliquid?
+                  </p>
+                  <div class="flex justify-between items-center">
+                     <h1 class="text-4xl text-gray-800 font-bold">$199</h1>
+                     <button
+                        class="
+                           px-4
+                           py-2
+                           bg-yellow-500
+                           rounded
+                           text-white
+                           font-bold
+                        "
+                     >
+                        <svg
+                           xmlns="http://www.w3.org/2000/svg"
+                           class="inline h-6 w-6"
+                           fill="none"
+                           viewBox="0 0 24 24"
+                           stroke="currentColor"
+                        >
+                           <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                           />
+                        </svg>
+                        Order Now
+                     </button>
+                  </div>
+               </div>
+               <div
+                  class="
+                     p-4
+                     shadow
+                     rounded
+                     space-y-5
+                     hover:shadow-xl
+                     cursor-pointer
+                     gap-10
+                  "
+               >
+                  <div class="bg-gray-200 rounded py-3">
+                     <img
+                        class="h-64 mx-auto"
+                        src="../images/jacket-6.png"
+                        alt="jacket image"
+                     />
+                  </div>
+                  <h3 class="text-3xl font-bold text-gray-800">Kaltu Jacket</h3>
+                  <p class="text-gray-400">
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Est, aliquid?
+                  </p>
+                  <div class="flex justify-between items-center">
+                     <h1 class="text-4xl text-gray-800 font-bold">$199</h1>
+                     <button
+                        class="
+                           px-4
+                           py-2
+                           bg-yellow-500
+                           rounded
+                           text-white
+                           font-bold
+                        "
+                     >
+                        <svg
+                           xmlns="http://www.w3.org/2000/svg"
+                           class="inline h-6 w-6"
+                           fill="none"
+                           viewBox="0 0 24 24"
+                           stroke="currentColor"
+                        >
+                           <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                           />
+                        </svg>
+                        Order Now
+                     </button>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <!-- feature section -->
+         <section class="px-32 py-10">
+            <div class="grid grid-cols-2 gap-5">
+               <div
+                  class="
+                     shadow-sl
+                     flex
+                     items-center
+                     px-6
+                     shadow
+                     rounded-xl
+                     py-4
+                     hover:bg-yellow-500
+                     cursor-pointer
+                     group
+                  "
+               >
+                  <img
+                     src="../icons/image 12.png"
+                     alt="feature image"
+                     class="w-20 mr-4"
+                  />
+                  <div>
+                     <h3 class="text-3xl font-bold text-gray-800 group-hover:text-yellow-50">
+                        Find the perfect fit
+                     </h3>
+                     <p class="text-gray-400 mt-2 group-hover:text-yellow-100">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Ipsa, quibusdam.
+                     </p>
+                  </div>
+               </div>
+               <div class="row-span-3 self-center">
+                  <img
+                     src="../images/shopping.png"
+                     alt="shopping image"
+                     class="w-4/5"
+                  />
+               </div>
+               <div
+                  class="
+                     shadow-sl
+                     flex
+                     items-center
+                     px-6
+                     shadow
+                     rounded-xl
+                     py-4
+                     hover:bg-yellow-500
+                     cursor-pointer
+                     group
+                  "
+               >
+                  <img
+                     src="../icons/image 13.png"
+                     alt="feature image"
+                     class="w-20 mr-4"
+                  />
+                  <div>
+                    <h3 class="text-3xl font-bold text-gray-800 group-hover:text-yellow-50">
+                      Find the perfect fit
+                   </h3>
+                   <p class="text-gray-400 mt-2 group-hover:text-yellow-100">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Ipsa, quibusdam.
+                   </p>
+                  </div>
+               </div>
+               <div
+                  class="
+                     shadow-sl
+                     flex
+                     items-center
+                     px-6
+                     shadow
+                     rounded-xl
+                     py-4
+                     hover:bg-yellow-500
+                     cursor-pointer
+                     group
+                  "
+               >
+                  <img
+                     src="../icons/image 14.png"
+                     alt="feature image"
+                     class="w-20 mr-4"
+                  />
+                  <div>
+                    <h3 class="text-3xl font-bold text-gray-800 group-hover:text-yellow-50">
+                      Find the perfect fit
+                   </h3>
+                   <p class="text-gray-400 mt-2 group-hover:text-yellow-100">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Ipsa, quibusdam.
+                   </p>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+
+      <!-- footer start -->
+      <footer></footer>
+   </body>
+</html>
