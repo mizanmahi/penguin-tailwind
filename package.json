@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "tailwindcss build src/styles.css -o public/styles.css"
+    "build": "tailwindcss build src/styles.css -o docs/styles.css"
   },
   "dependencies": {
     "tailwindcss": "^2.2.7"
