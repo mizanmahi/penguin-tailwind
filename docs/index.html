@@ -10,7 +10,7 @@
    <body>
       <!-- header start -->
       <header class="bg-yellow-50 pt-5">
-         <div class="px-32">
+         <div class="xl:px-32 lg:px-16 md:px-12 sm:px-4">
             <!-- nav start -->
             <nav class="flex justify-between items-center">
                <div class="logo">
@@ -29,20 +29,21 @@
             </nav>
 
             <!-- intro start -->
-            <div class="intro flex items-center py-20">
-               <div class="space-y-5">
-                  <h1 class="text-7xl text-yellow-500 font-extrabold uppercase">
+            <div class="intro md:flex   justify-center items-center py-20 space-y-5 md:space-y-0">
+               <div class="space-y-5 text-center md:text-left">
+                  <h1 class="lg:text-7xl md:text-4xl text-3xl text-yellow-500 font-extrabold uppercase">
                      Be The Penguin <br />
                      <span class="text-gray-800">of winter</span>
                   </h1>
-                  <p class="text-gray-500 text-2xl w-3/4">
+                  <p class="text-gray-500 text-2xl w-3/4 mx-auto md:mx-0">
                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                      Iusto sapiente assumenda similique sequi reprehenderit
                      dolores.
                   </p>
                   <button
                      class="
-                        px-8
+                        md:px-8
+                        px-4
                         bg-gray-800
                         font-bold
                         py-3
@@ -80,11 +81,11 @@
       <!-- main start -->
       <main>
          <!-- women jackets section -->
-         <section class="px-32 my-10">
+         <section class="xl:px-32 lg:px-16 md:px-12 sm:px-4 my-10">
             <h2 class="text-gray-800 text-5xl font-bold mb-10">
                Women Jackets
             </h2>
-            <div class="jackets grid grid-cols-3 gap-10">
+            <div class="jackets grid lg:grid-cols-3 sm:grid-cols-2 lg:gap-10 md:gap-6 sm:gap-4">
                <!-- single jacket -->
                <div
                   class="
@@ -103,7 +104,7 @@
                         alt="jacket image"
                      />
                   </div>
-                  <h3 class="text-3xl font-bold text-gray-800">Yellow Coat</h3>
+                  <h3 class="text-2xl font-bold text-gray-800">Yellow Coat</h3>
                   <p class="text-gray-400">
                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
                      Est, aliquid?
@@ -156,7 +157,7 @@
                         alt="jacket image"
                      />
                   </div>
-                  <h3 class="text-3xl font-bold text-gray-800">
+                  <h3 class="text-2xl font-bold text-gray-800">
                      Ladies Jacket
                   </h3>
                   <p class="text-gray-400">
@@ -211,7 +212,7 @@
                         alt="jacket image"
                      />
                   </div>
-                  <h3 class="text-3xl font-bold text-gray-800">
+                  <h3 class="text-2xl font-bold text-gray-800">
                      Leather Jacket
                   </h3>
                   <p class="text-gray-400">
@@ -251,9 +252,9 @@
             </div>
          </section>
          <!-- men jacket secion -->
-         <section class="px-32 my-10">
+         <section class="xl:px-32 lg:px-16 md:px-12 sm:px-4 my-10">
             <h2 class="text-gray-800 text-5xl font-bold mb-10">Men Jackets</h2>
-            <div class="jackets grid grid-cols-3 gap-10">
+            <div class=" grid lg:grid-cols-3 sm:grid-cols-2 lg:gap-10 md:gap-6 sm:gap-4">
                <!-- single jacket -->
                <div
                   class="
@@ -272,7 +273,7 @@
                         alt="jacket image"
                      />
                   </div>
-                  <h3 class="text-3xl font-bold text-gray-800">
+                  <h3 class="text-2xl font-bold text-gray-800">
                      Snowboard Jacket
                   </h3>
                   <p class="text-gray-400">
@@ -327,7 +328,7 @@
                         alt="jacket image"
                      />
                   </div>
-                  <h3 class="text-3xl font-bold text-gray-800">
+                  <h3 class="text-2xl font-bold text-gray-800">
                      Leather Jackets
                   </h3>
                   <p class="text-gray-400">
@@ -382,7 +383,7 @@
                         alt="jacket image"
                      />
                   </div>
-                  <h3 class="text-3xl font-bold text-gray-800">Kaltu Jacket</h3>
+                  <h3 class="text-2xl font-bold text-gray-800">Kaltu Jacket</h3>
                   <p class="text-gray-400">
                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
                      Est, aliquid?
@@ -421,8 +422,8 @@
          </section>
 
          <!-- feature section -->
-         <section class="px-32 py-10">
-            <div class="grid grid-cols-2 gap-5">
+         <section class="lg:px-32 md:px-24 sm:px-4 px-2 py-10">
+            <div class="grid lg:grid-cols-2 grid-cols-1 gap-5">
                <div
                   class="
                      shadow-sl
@@ -452,7 +453,7 @@
                      </p>
                   </div>
                </div>
-               <div class="row-span-3 self-center">
+               <div class="order-first lg:order-2 lg:row-span-3 lg:self-center">
                   <img
                      src="../images/shopping.png"
                      alt="shopping image"
